@@ -1,12 +1,12 @@
-// ==UserScript==
+﻿// ==UserScript==
 // @name         Coi Pixel Bot
 // @namespace    http://tampermonkey.net/
 // @version      4.0
 // @description  try to take over the world!
 // @author       Flyink13, DarkKeks
 // @match        https://pixel.vkforms.ru/*
-// @downloadURL  https://github.com/grushan/PixelNavalny2018/raw/master/PixelBot.user.js
-// @updateURL    https://github.com/grushan/PixelNavalny2018/raw/master/PixelBot.user.js
+// @downloadURL  https://github.com/nobody42013/Not-A-Bot/blob/master/Not_A_Bot/PixelBot.user.js
+// @updateURL    https://github.com/nobody42013/Not-A-Bot/blob/master/Not_A_Bot/PixelBot.user.js
 // @grant        none
 // ==/UserScript==
 
@@ -14,8 +14,8 @@ function CoiPixelBot() {
     window.CoiPixelBot = CoiPixelBot;
 
     CoiPixelBot.url = {
-        script: 'https://github.com/grushan/PixelNavalny2018/raw/master/PixelBot.user.js',
-        image:  'https://raw.githubusercontent.com/grushan/PixelNavalny2018/master/image.png'
+        script: 'https://github.com/nobody42013/Not-A-Bot/blob/master/Not_A_Bot/PixelBot.user.js',
+        image:  'https://github.com/nobody42013/Not-A-Bot/blob/master/Not_A_Bot/image.png'
     };
 
     CoiPixelBot.refreshTime = 60;
